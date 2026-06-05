@@ -91,3 +91,25 @@ Utilize o menu interativo no terminal para gerir o ecossistema:
 =================================================================
 Seleciona uma opção (0-4):
 ```
+
+---
+
+## 📸 Resultados do Projeto
+
+Abaixo é possível observar a diferença entre a deteção nativa em OpenCV e a renderização sofisticada integrada com Unity3D.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>Deteção Local (OpenCV)</b></td>
+      <td align="center"><b>Integração Realidade Aumentada (Unity3D)</b></td>
+    </tr>
+    <tr>
+      <td><img src="Relatorio 2 - VARM/img/detecao_aruco_local.png" width="400"></td>
+      <td><img src="Relatorio 2 - VARM/img/detecao_aruco_unity_game.png" width="400"></td>
+    <tr>
+      <td>Wireframe geométrico renderizado nativamente.</td>
+      <td>Objeto 3D com texturização alinhado ao marcador.</td>
+    </tr>
+  </table>
+</div>
