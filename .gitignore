@@ -1,0 +1,46 @@
+# =================================================================
+# 🐍 Python - Configurações de Ambiente e Cache
+# =================================================================
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =================================================================
+# 🎮 Unity3D - Pastas Temporárias e Locais do Projeto
+# =================================================================
+VARM_Projeto2_Unity/Library/
+VARM_Projeto2_Unity/Temp/
+VARM_Projeto2_Unity/Obj/
+VARM_Projeto2_Unity/Logs/
+VARM_Projeto2_Unity/VeiwState/
+VARM_Projeto2_Unity/UserSettings/
+
+# Ignorar builds geradas dentro do projeto Unity (caso existam)
+VARM_Projeto2_Unity/Build/
+VARM_Projeto2_Unity/Builds/
+
+# Autogerados por IDEs no Unity
+VARM_Projeto2_Unity/*.csproj
+VARM_Projeto2_Unity/*.sln
+VARM_Projeto2_Unity/*.suo
+VARM_Projeto2_Unity/*.user
+VARM_Projeto2_Unity/*.userprefs
+VARM_Projeto2_Unity/*.pidb
+
+# =================================================================
+# 📄 Documentação e Relatórios (Ignorar Pasta de Escrita)
+# =================================================================
+Relatorio 2 - VARM/
+
+# =================================================================
+# 💻 IDEs e Configurações de Sistema (VS Code, Visual Studio, Windows)
+# =================================================================
+.vs/
+.vscode/
+Thumbs.db
+Desktop.ini
+
+# Ficheiro de análise de árvore local
+arvore.txt
